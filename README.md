@@ -81,14 +81,14 @@ rbind(x,y)  ## creates matrix with 3,4,5 in column
 
 
 
-NaN is Na but converse is not true.
+##NaN is Na but converse is not true.
 x<- c(1,2,NaN,NA,4)
 is.na(x)  ##FALSE FALSE TRUE TRUE FALSE
 is.nan(x) ##FALSE FALSE TRUE FALSE FALSE
 
 
-
-Data Frames - used to store tabular data.
+##################################################################
+##Data Frames - used to store tabular data.
 read.table()  or read.csv()    | data.matrix() converts to matrix.
 
 x <- data.frame(foo = 1:4, bar = c(T,T,F,F))
