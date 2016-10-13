@@ -44,7 +44,7 @@ Inf
 ## NaN - is a special number 'Not a Number'
 0/0
 
-
+############### VECTOR ####################
 ##1. c()  function to create vector
 x <- c(T, F)                                            ## boolean
 x <- c("sandeep","svara", "aadya", "rajni", "kandekar") ## char
@@ -61,6 +61,7 @@ x    ##Exercise  initialized with 0s
 x <- list(35, "sandeep", FALSE, 89+7i)
 x  ## Exercise
 
+############## MATRIX #####################
 ## Matrix is a special kind of Vector, which has dimension.
 m <- matrix(1:6, nrow  = 2, ncol = 3)  ##creates column wise.
 m  ## Exercise
@@ -69,13 +70,29 @@ m <- 1:10
 dim(m) <- c(2,5)  ## take teh vector m, and transform it into a matrix with 2 rows and 5 columns
 m  ## Exercise
 
+c-bind
+x <- 3:5
+y <- 13:15
+
+cbind(x,y)  ## creates matrix with 3,4,5 in rows
+rbind(x,y)  ## creates matrix with 3,4,5 in column
+ 
 
 
 
 
+NaN is Na but converse is not true.
+x<- c(1,2,NaN,NA,4)
+is.na(x)  ##FALSE FALSE TRUE TRUE FALSE
+is.nan(x) ##FALSE FALSE TRUE FALSE FALSE
 
 
 
+Data Frames - used to store tabular data.
+read.table()  or read.csv()    | data.matrix() converts to matrix.
+
+x <- data.frame(foo = 1:4, bar = c(T,T,F,F))
+x  ## Exercise.
 
 
 
