@@ -95,6 +95,15 @@ x <- data.frame(foo = 1:4, bar = c(T,T,F,F))
 x  ## Exercise.
 
 
+################R Objects can have NAME ##############################
+x <- 1:3
+names(X)   ## NULL
+
+names(x) <- c("midge", "cameroon", "zelda")
+x  ## Exercies
+names(x)  ## Exercise
+
+matrices can have names to ## Exercise check it.
 
 
 
