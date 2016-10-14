@@ -122,5 +122,6 @@ Reading Data to a table
 
 ```
 1,500,000 * 120 * 8bytes/numeric = 1440000000 bytes   ==> 14400000000/2^20 bytes/MB = 1,373.29 MB  ==> 1.34 GB
+## so you need twice than above, like 2.68 GB RAM memory.
 
 ```
