@@ -27,7 +27,14 @@ y          ## Exercies.
 
 ```
 
-Objects in R (character, numeric -real number, integer, complex, logical(T/F))
+> Objects in R 
+> Atomic Classes : (character, numeric -real number, integer, complex, logical(T/F))
+> vectors(elts of same class), Lists(can have elts of diff. classes)
+> factors(categorical data, ordered/unordered data)
+> missing values
+> data frames(store tabular data, each col. is different class)
+> names (all objs can have name, for descriptio.)
+
 ```sh
 ## create a vector (contains same type), exception list (this can contain multiple types)
 vector()
