@@ -112,6 +112,15 @@ names(x)  ## Exercise
 
 matrices can have names to ## Exercise check it.
 
+```
 
+Reading Data to a table
+> Make sure you try to specify columns, seperator, etc. if not all data is loaded in RAM and u system will choke
+ 
+===========  Calculate the memory requirements =====================
+> 1.5 mil rows, with 120 columns (say all are numeric)
+
+```
+1,500,000 * 120 * 8bytes/numeric = 1440000000 bytes   ==> 14400000000/2^20 bytes/MB = 1,373.29 MB  ==> 1.34 GB
 
 ```
